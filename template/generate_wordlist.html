@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generate Wordlist</title>
+</head>
+<body>
+    <h1>Generate Wordlist</h1>
+    <form action="/generate_wordlist" method="post">
+        <label for="count">Count:</label>
+        <input type="number" name="count" id="count" required>
+        <br>
+        <label for="output_file">Output File:</label>
+        <input type="text" name="output_file" id="output_file" required>
+        <br>
+        <input type="submit" value="Generate">
+    </form>
+</body>
+</html>
