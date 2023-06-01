@@ -1,1 +1,6 @@
 Flask==2.2.2
+pywallet
+cryptography
+mnemonic
+bitcoinlib
+pandas
