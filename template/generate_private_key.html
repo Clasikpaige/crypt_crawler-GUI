@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generate Private Key</title>
+</head>
+<body>
+    <h1>Generate Private Key</h1>
+    <form action="/generate_private_key" method="post">
+        <label for="wordlist">Wordlist:</label>
+        <input type="text" name="wordlist" id="wordlist" required>
+        <br>
+        <label for="target_hash">Target Hash:</label>
+        <input type="text" name="target_hash" id="target_hash" required>
+        <br>
+        <input type="submit" value="Generate">
+    </form>
+</body>
+</html>
