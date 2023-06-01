@@ -1,5 +1,5 @@
 Flask==2.2.2
-pywallet==0.5.2
+pywallet==0.1.0
 cryptography==3.4.8
 mnemonic
 bitcoinlib
