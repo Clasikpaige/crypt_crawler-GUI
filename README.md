@@ -1,28 +1,49 @@
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fpython%2Fflask&demo-title=Flask%20%2B%20Vercel&demo-description=Use%20Flask%202%20on%20Vercel%20with%20Serverless%20Functions%20using%20the%20Python%20Runtime.&demo-url=https%3A%2F%2Fflask-python-template.vercel.app%2F&demo-image=https://assets.vercel.com/image/upload/v1669994156/random/flask.png)
+# GUI Counterpart of Command Line Tool
 
-# Flask + Vercel
+This project is a GUI counterpart of the command line tool, (crypt-crawler) It provides a user-friendly graphical interface for performing the same functionalities as the original command line tool.
 
-This example shows how to use Flask 2 on Vercel with Serverless Functions using the [Python Runtime](https://vercel.com/docs/concepts/functions/serverless-functions/runtimes/python).
+## Usage
 
-## Demo
+To use the GUI counterpart, follow the steps below:
 
-https://flask-python-template.vercel.app/
+1. Clone the repository to your local machine.
 
-## How it Works
+2. Install the necessary dependencies by running the following command:
 
-This example uses the Web Server Gateway Interface (WSGI) with Flask to enable handling requests on Vercel with Serverless Functions.
+# pip install -r requirements.txt
 
-## Running Locally
+3. Start the Flask application by running the following command:
 
-```bash
-npm i -g vercel
-vercel dev
-```
+`python app.py`
 
-Your Flask application is now available at `http://localhost:3000`.
 
-## One-Click Deploy
+4. Open a web browser and navigate to `http://localhost:5000` to access the GUI.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+5. The GUI provides different functionalities that correspond to the command line tool. Each functionality is accessible through a separate route.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fpython%2Fflask&demo-title=Flask%20%2B%20Vercel&demo-description=Use%20Flask%202%20on%20Vercel%20with%20Serverless%20Functions%20using%20the%20Python%20Runtime.&demo-url=https%3A%2F%2Fflask-python-template.vercel.app%2F&demo-image=https://assets.vercel.com/image/upload/v1669994156/random/flask.png)
+6. Click on the respective links or buttons to access each functionality and provide the required inputs.
+
+7. The GUI will process the inputs and display the results on the web page.
+
+8. Follow the on-screen instructions and prompts to interact with the GUI and perform the desired actions.
+
+## Additional Information
+
+- The GUI counterpart is built using Flask, a Python web framework, and HTML templates for rendering the web pages.
+
+- The original command line tool functionality has been adapted to work with the GUI, providing a more user-friendly experience.
+
+- The project structure includes the main Flask application file (`app.py`), HTML templates (`templates` folder), and any required static files (`static` folder).
+
+- Feel free to explore the codebase and customize the templates or add additional functionality as per your requirements.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
+
+
+
+
+
